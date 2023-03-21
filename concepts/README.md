@@ -11,5 +11,5 @@ For instance:
 
 ```shell
 # from root directory
-dotnet run concepts/implicit_operators.cs
+ dotnet run --project concepts/implicit_operators/implicit_operators.csproj
 ```

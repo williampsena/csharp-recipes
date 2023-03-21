@@ -13,7 +13,6 @@ var credentials = (UserCredentials)user;
 
 Console.WriteLine(JsonSerializer.Serialize(credentials));
 
-
 Wine wine = new Grape() + new Foot();
 
 Console.WriteLine(wine.ToString());

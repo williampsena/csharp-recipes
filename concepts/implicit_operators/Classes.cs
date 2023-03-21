@@ -1,6 +1,6 @@
 using System;
 
-public class User
+class User
 {
     public Guid Id { get; set; }
 
@@ -13,7 +13,7 @@ public class User
     public DateTime InsertedAt { get; set; }
 }
 
-public class UserCredentials
+class UserCredentials
 {
     public String Id { get; private set; }
 
